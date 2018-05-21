@@ -10,7 +10,6 @@ notifications:
     sonarcloud:
       organization: "bahpetit"
 
-
   script:
     - mvn clean test -B
     - mvn cobertura: cobertura

@@ -1,10 +1,12 @@
 langage: java
 
-jdk: - oraclejdk8
+jdk:
+    - oraclejdk8
 
 notifications:
-  email: on_success: never # default: change
-  on_failure: always # default: always
+  email:
+    on_success: never # default: change
+    on_failure: always # default: always
 
   addons:
     sonarcloud:
